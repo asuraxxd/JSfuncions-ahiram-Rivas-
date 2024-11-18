@@ -63,3 +63,7 @@ console.log(esTrentaAnonim(15, 15));
 const mateixTipusIValor = (a, b) => a === b;
 console.log(mateixTipusIValor(5, "5"));
 
+//exercici 11
+const arrelQuadrada = (x) => Math.sqrt(x).toFixed(2);
+console.log(arrelQuadrada(45));
+
