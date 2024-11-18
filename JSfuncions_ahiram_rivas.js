@@ -52,3 +52,10 @@ function esTrenta(a, b) {
     return a === 30 || b === 30 || (a + b === 30);
 }
 console.log(esTrenta(10, 20));
+
+//exercici 9
+const esTrentaAnonim = function(a, b) {
+    return a === 30 || b === 30 || (a + b === 30);
+};
+console.log(esTrentaAnonim(15, 15));
+
