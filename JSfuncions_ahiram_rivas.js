@@ -75,4 +75,17 @@ console.log(convertirMinuscules("BONA TARDA"));
 const valorNoNull = (a, b) => a ?? b;
 console.log(valorNoNull(null, "Hola"));
 
+//exercici 14
+const posicio = (frase, paraula) => {
+    const index = frase.indexOf(paraula);
+    return frase.length - index - paraula.length;
+};
+
+const dividir = (frase, paraula) => {
+    const inici = posicio(frase, paraula);
+    return frase.slice(inici);
+};
+
+console.log(dividir("Hola com estàs", "com"));
+
 
