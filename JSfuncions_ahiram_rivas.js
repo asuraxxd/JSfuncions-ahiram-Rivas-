@@ -46,3 +46,9 @@ function executar() {
     return sumarTresValors(3, 7, 10);
 }
 console.log(executar());
+
+//exercici 8
+function esTrenta(a, b) {
+    return a === 30 || b === 30 || (a + b === 30);
+}
+console.log(esTrenta(10, 20));
