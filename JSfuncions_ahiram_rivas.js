@@ -26,3 +26,10 @@ declararVariable();
 // console.log(variableLocal); // Error: variableLocal is not defined
 
 //Explicació: Les variables declarades dins d'una funció només existeixen en el seu àmbit (scope).
+
+//exercici 5
+function comptarVocals(text) {
+    const vocals = text.match(/[aeiouàèéíòóúü]/gi);
+    return vocals ? vocals.length : 0;
+}
+console.log(comptarVocals("Hola, com estàs?"));
