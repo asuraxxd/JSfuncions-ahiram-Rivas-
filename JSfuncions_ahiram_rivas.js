@@ -39,3 +39,10 @@ function sumarTresValors(a, b, c = 0) {
     return a + b + c;
 }
 console.log(sumarTresValors(5, 10));
+
+//exercici 7
+function executar() {
+    mostrarDataActual();
+    return sumarTresValors(3, 7, 10);
+}
+console.log(executar());
