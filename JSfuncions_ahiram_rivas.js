@@ -67,3 +67,7 @@ console.log(mateixTipusIValor(5, "5"));
 const arrelQuadrada = (x) => Math.sqrt(x).toFixed(2);
 console.log(arrelQuadrada(45));
 
+//exercici 12
+const convertirMinuscules = (text) => text.toLowerCase();
+console.log(convertirMinuscules("BONA TARDA"));
+
