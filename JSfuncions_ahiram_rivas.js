@@ -88,4 +88,9 @@ const dividir = (frase, paraula) => {
 
 console.log(dividir("Hola com estàs", "com"));
 
+//exercici 15
+// Aquesta funció rep un valor `x` i el multiplica per 3.
+const multiplicarPerTres = (x) => x + x + x;
+console.log(multiplicarPerTres(5)); // Exemple: retorna 15.
+
 
