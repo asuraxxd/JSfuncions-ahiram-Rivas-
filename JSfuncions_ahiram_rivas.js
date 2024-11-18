@@ -59,3 +59,7 @@ const esTrentaAnonim = function(a, b) {
 };
 console.log(esTrentaAnonim(15, 15));
 
+//exercici 10
+const mateixTipusIValor = (a, b) => a === b;
+console.log(mateixTipusIValor(5, "5"));
+
