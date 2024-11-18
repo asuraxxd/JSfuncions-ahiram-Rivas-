@@ -11,3 +11,8 @@ function mostrarTipus(valor) {
 mostrarTipus(42);
 mostrarTipus("Hola");
 
+//exercici 3
+function mostrarDataActual() {
+    console.log(`Data actual: ${new Date()}`);
+}
+mostrarDataActual();
