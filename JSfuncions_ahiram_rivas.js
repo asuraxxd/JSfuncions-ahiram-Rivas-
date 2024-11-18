@@ -33,3 +33,9 @@ function comptarVocals(text) {
     return vocals ? vocals.length : 0;
 }
 console.log(comptarVocals("Hola, com estàs?"));
+
+//exercici 6
+function sumarTresValors(a, b, c = 0) {
+    return a + b + c;
+}
+console.log(sumarTresValors(5, 10));
