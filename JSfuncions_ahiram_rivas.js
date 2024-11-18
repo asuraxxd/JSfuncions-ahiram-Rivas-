@@ -71,3 +71,8 @@ console.log(arrelQuadrada(45));
 const convertirMinuscules = (text) => text.toLowerCase();
 console.log(convertirMinuscules("BONA TARDA"));
 
+//exercici 13
+const valorNoNull = (a, b) => a ?? b;
+console.log(valorNoNull(null, "Hola"));
+
+
